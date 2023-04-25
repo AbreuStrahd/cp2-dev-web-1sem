@@ -8,6 +8,8 @@
   text-align: center; 
   display: grid;
   place-items: center;
+  background-color: white;
+  border-radius:15px;
 }
 
 .menu img {
@@ -31,6 +33,7 @@
     color:black; 
     text-decoration: none; 
     transition: 0.3s;
+    
   }
 
 .menu ul li a:hover{  
@@ -143,4 +146,12 @@
 
 .modo_noite {
   background-color: #191970;
+}
+
+.formulario {
+  align-items: center;
+}
+
+.formulario label  {
+  display:block;
 }
