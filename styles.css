@@ -154,4 +154,13 @@
 
 .formulario label  {
   display:block;
+  padding: 8px;
+}
+
+.formulario input {
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 30px;
+  width: 300px;
+
 }
