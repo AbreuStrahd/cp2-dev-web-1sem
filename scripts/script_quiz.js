@@ -22,3 +22,11 @@ const questions = [
   { question: "O que é um vinho de guarda?", answer: "Um vinho que melhora com o envelhecimento" },
   { question: "Qual é o tipo de vinho produzido na região do Douro, em Portugal?", answer: "Vinho do Porto" }
 ];
+// Variável para armazenar a pontuação do usuário
+let score = 0;
+
+// Loop para apresentar as perguntas
+for (let i = 0; i < questions.length; i++) {
+  // Perguntando ao usuário e armazenando a resposta
+  const userAnswer = prompt(questions[i].question);
+
