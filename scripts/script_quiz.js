@@ -30,3 +30,14 @@ for (let i = 0; i < questions.length; i++) {
   // Perguntando ao usuário e armazenando a resposta
   const userAnswer = prompt(questions[i].question);
 
+  // Verificando se a resposta está correta e atualizando a pontuação
+  if (userAnswer.toLowerCase() === questions[i].answer.toLowerCase()) {
+    alert("Resposta correta!");
+    score++;
+  } else {
+    alert("Resposta incorreta.");
+  }
+}
+
+// Mostrando a pontuação final ao usuário
+alert(`Quiz finalizado! Sua pontuação foi ${score} de ${questions.length}.`);
